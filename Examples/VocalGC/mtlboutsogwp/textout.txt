@@ -1,0 +1,11 @@
+outlier removal data reduction from 2562 to 2523
+post 1 outlier removal data reduction from 591 to 583
+post 2 outlier removal data reduction from 412 to 388
+post 3 outlier removal data reduction from 398 to 377
+post 4 outlier removal data reduction from 472 to 453
+discarded features percentage 2.497027 %; from 2523 to 2462
+working with 2 output dimensions; input dimensions 15
+finding alpha opt for full 2D rotation........................................................................................................................................................................................................................................................................................................................................................................
+original extrema total dist 13.264957
+extrema total dist 13.264957
+with 484 output lattice nodes trial 1 (22 per dimension) 0 distortions & 0 curled edges

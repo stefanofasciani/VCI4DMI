@@ -1,0 +1,33 @@
+************************************
+****** DMI MAPPING TIME START ******
+************************************
+uniforming the IR lenght and downsampling
+number of DMI parameters = 3
+number of DMI parameters combinations = 486
+number of DMI features = 7946
+embedded dimensionality = 11.327849 --> 3
+Original sonic space uniformity = 0.991605
+Constructing neighborhood graph...
+Computing shortest paths...
+Constructing low-dimensional embedding...
+{Warning: Target dimensionality reduced to 486...} 
+> In <a href="matlab: opentoline('/Users/stefanofasciani/Documents/MATLAB/drtoolbox/techniques/isomap.m',63,1)">isomap at 63</a>
+  In <a href="matlab: opentoline('/Users/stefanofasciani/Documents/MATLAB/drtoolbox/compute_mapping.m',177,1)">compute_mapping at 177</a>
+  In <a href="matlab: opentoline('/Volumes/SFAXTHD3TB/NUS/research/MaxMsp/FinalVersion/git/VCI4DMI/MATLAB/DMImappingTime.m',223,1)">DMImappingTime at 223</a>
+Reduced sonic space uniformity = 1.917075
+building map for very low dimensional space...
+Reduced sonic space transformed uniformity = 0.044190
+redistr neigh distortion singledim 21841 - 18.532095%; alldim 79 - 0.067032%; total check 117855
+training NN fitnet...
+mean squared error = 0.042030; netperf = 0.021015; mse = 0.021015; trial = 1/100; NN size = 4 0 
+rank transformation...
+distmesh transformation...
+Reduced sonic space transformed uniformity = 0.057146
+redistr neigh distortion singledim 50009 - 42.432650%; alldim 87 - 0.073820%; total check 117855
+training NN fitnet...
+mean squared error = 0.089763; netperf = 0.029921; mse = 0.029921; trial = 1/100; NN size = 6 0 
+Mean squared error = 0.029921; Point displacement mean squared error = 0.089763
+neighborhood graph...
+**********************************
+****** DMI MAPPING TIME END ******
+**********************************

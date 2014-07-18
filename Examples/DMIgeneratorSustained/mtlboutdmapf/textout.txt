@@ -1,0 +1,245 @@
+************************************
+****** DMI MAPPING FREQ START ******
+************************************
+averaging the 50 vectors per state (gen/proc sustain static mode)
+number of DMI parameters = 3
+number of DMI parameters combinations = 343
+number of DMI features = 25
+embedded dimensionality = 2.488404 --> 3
+Original sonic space uniformity = 0.543274
+Constructing neighborhood graph...
+Computing shortest paths...
+Constructing low-dimensional embedding...
+Constructing neighborhood graph...
+Computing shortest paths...
+Constructing low-dimensional embedding...
+Constructing neighborhood graph...
+Computing shortest paths...
+Constructing low-dimensional embedding...
+Constructing neighborhood graph...
+Computing shortest paths...
+Constructing low-dimensional embedding...
+Constructing neighborhood graph...
+Computing shortest paths...
+Constructing low-dimensional embedding...
+Constructing neighborhood graph...
+Computing shortest paths...
+Constructing low-dimensional embedding...
+Reduced sonic space uniformity = 0.880216
+building map for very low dimensional space...
+Reduced sonic space transformed uniformity = 0.051095
+redistr neigh distortion singledim 7618 - 12.988253%; alldim 9 - 0.015344%; total check 58653
+training NN fitnet...
+mean squared error = 3.609443; netperf = 1.804722; mse = 1.804722; trial = 1/100; NN size = 4 0 
+mean squared error = 4.333707; netperf = 2.166853; mse = 2.166853; trial = 2/100; NN size = 5 0 
+mean squared error = 2.994163; netperf = 1.497081; mse = 1.497081; trial = 3/100; NN size = 6 0 
+mean squared error = 3.003308; netperf = 1.501654; mse = 1.501654; trial = 4/100; NN size = 7 0 
+mean squared error = 3.454005; netperf = 1.727002; mse = 1.727002; trial = 5/100; NN size = 8 0 
+mean squared error = 2.575610; netperf = 1.287805; mse = 1.287805; trial = 6/100; NN size = 9 0 
+mean squared error = 2.774753; netperf = 1.387376; mse = 1.387376; trial = 7/100; NN size = 10 0 
+mean squared error = 2.479715; netperf = 1.239858; mse = 1.239858; trial = 8/100; NN size = 11 0 
+mean squared error = 2.741712; netperf = 1.370856; mse = 1.370856; trial = 9/100; NN size = 12 0 
+mean squared error = 2.708746; netperf = 1.354373; mse = 1.354373; trial = 10/100; NN size = 13 0 
+mean squared error = 2.458468; netperf = 1.229234; mse = 1.229234; trial = 11/100; NN size = 14 0 
+mean squared error = 2.248993; netperf = 1.124496; mse = 1.124496; trial = 12/100; NN size = 15 0 
+mean squared error = 3.217113; netperf = 1.608556; mse = 1.608556; trial = 13/100; NN size = 16 0 
+mean squared error = 2.026520; netperf = 1.013260; mse = 1.013260; trial = 14/100; NN size = 17 0 
+mean squared error = 2.486560; netperf = 1.243280; mse = 1.243280; trial = 15/100; NN size = 18 0 
+mean squared error = 4.047162; netperf = 2.023581; mse = 2.023581; trial = 16/100; NN size = 4 2 
+mean squared error = 3.331408; netperf = 1.665704; mse = 1.665704; trial = 17/100; NN size = 5 2 
+mean squared error = 3.868953; netperf = 1.934476; mse = 1.934476; trial = 18/100; NN size = 6 2 
+mean squared error = 3.156050; netperf = 1.578025; mse = 1.578025; trial = 19/100; NN size = 7 2 
+mean squared error = 3.106566; netperf = 1.553283; mse = 1.553283; trial = 20/100; NN size = 8 2 
+mean squared error = 3.086336; netperf = 1.543168; mse = 1.543168; trial = 21/100; NN size = 9 2 
+mean squared error = 2.570129; netperf = 1.285064; mse = 1.285064; trial = 22/100; NN size = 10 2 
+mean squared error = 120.041603; netperf = 60.020801; mse = 60.020801; trial = 23/100; NN size = 11 2 
+mean squared error = 2.376457; netperf = 1.188228; mse = 1.188228; trial = 24/100; NN size = 12 2 
+mean squared error = 2.222462; netperf = 1.111231; mse = 1.111231; trial = 25/100; NN size = 13 2 
+mean squared error = 4.575368; netperf = 2.287684; mse = 2.287684; trial = 26/100; NN size = 14 2 
+mean squared error = 2.119782; netperf = 1.059891; mse = 1.059891; trial = 27/100; NN size = 15 2 
+mean squared error = 2.523437; netperf = 1.261719; mse = 1.261719; trial = 28/100; NN size = 16 2 
+mean squared error = 2.668573; netperf = 1.334286; mse = 1.334286; trial = 29/100; NN size = 17 2 
+mean squared error = 17.685710; netperf = 8.842855; mse = 8.842855; trial = 30/100; NN size = 18 2 
+mean squared error = 3.361433; netperf = 1.680716; mse = 1.680716; trial = 31/100; NN size = 4 3 
+mean squared error = 2.640717; netperf = 1.320358; mse = 1.320358; trial = 32/100; NN size = 5 3 
+mean squared error = 3.913810; netperf = 1.956905; mse = 1.956905; trial = 33/100; NN size = 6 3 
+mean squared error = 2.679764; netperf = 1.339882; mse = 1.339882; trial = 34/100; NN size = 7 3 
+mean squared error = 2.691299; netperf = 1.345650; mse = 1.345650; trial = 35/100; NN size = 8 3 
+mean squared error = 4.406022; netperf = 2.203011; mse = 2.203011; trial = 36/100; NN size = 9 3 
+mean squared error = 2.373568; netperf = 1.186784; mse = 1.186784; trial = 37/100; NN size = 10 3 
+mean squared error = 3.267375; netperf = 1.633687; mse = 1.633687; trial = 38/100; NN size = 11 3 
+mean squared error = 2.320979; netperf = 1.160489; mse = 1.160489; trial = 39/100; NN size = 12 3 
+mean squared error = 2.294074; netperf = 1.147037; mse = 1.147037; trial = 40/100; NN size = 13 3 
+mean squared error = 2.437197; netperf = 1.218599; mse = 1.218599; trial = 41/100; NN size = 14 3 
+mean squared error = 2.417738; netperf = 1.208869; mse = 1.208869; trial = 42/100; NN size = 15 3 
+mean squared error = 1.849469; netperf = 0.924734; mse = 0.924734; trial = 43/100; NN size = 16 3 
+mean squared error = 57.146509; netperf = 28.573254; mse = 28.573254; trial = 44/100; NN size = 17 3 
+mean squared error = 2.061944; netperf = 1.030972; mse = 1.030972; trial = 45/100; NN size = 18 3 
+mean squared error = 2.581931; netperf = 1.290965; mse = 1.290965; trial = 46/100; NN size = 4 4 
+mean squared error = 2.730813; netperf = 1.365406; mse = 1.365406; trial = 47/100; NN size = 5 4 
+mean squared error = 3.712234; netperf = 1.856117; mse = 1.856117; trial = 48/100; NN size = 6 4 
+mean squared error = 2.412134; netperf = 1.206067; mse = 1.206067; trial = 49/100; NN size = 7 4 
+mean squared error = 17.691179; netperf = 8.845589; mse = 8.845589; trial = 50/100; NN size = 8 4 
+mean squared error = 2.631549; netperf = 1.315775; mse = 1.315775; trial = 51/100; NN size = 9 4 
+mean squared error = 21.159948; netperf = 10.579974; mse = 10.579974; trial = 52/100; NN size = 10 4 
+mean squared error = 2.061010; netperf = 1.030505; mse = 1.030505; trial = 53/100; NN size = 11 4 
+mean squared error = 2.082453; netperf = 1.041226; mse = 1.041226; trial = 54/100; NN size = 12 4 
+mean squared error = 2.231178; netperf = 1.115589; mse = 1.115589; trial = 55/100; NN size = 13 4 
+mean squared error = 2.048379; netperf = 1.024190; mse = 1.024190; trial = 56/100; NN size = 14 4 
+mean squared error = 2.357193; netperf = 1.178596; mse = 1.178596; trial = 57/100; NN size = 15 4 
+mean squared error = 2.230372; netperf = 1.115186; mse = 1.115186; trial = 58/100; NN size = 16 4 
+mean squared error = 1.816956; netperf = 0.908478; mse = 0.908478; trial = 59/100; NN size = 17 4 
+mean squared error = 4.511333; netperf = 2.255667; mse = 2.255667; trial = 60/100; NN size = 18 4 
+mean squared error = 2.084797; netperf = 1.042398; mse = 1.042398; trial = 61/100; NN size = 4 5 
+mean squared error = 2.156794; netperf = 1.078397; mse = 1.078397; trial = 62/100; NN size = 5 5 
+mean squared error = 2.896058; netperf = 1.448029; mse = 1.448029; trial = 63/100; NN size = 6 5 
+mean squared error = 2.931558; netperf = 1.465779; mse = 1.465779; trial = 64/100; NN size = 7 5 
+mean squared error = 2.727257; netperf = 1.363628; mse = 1.363628; trial = 65/100; NN size = 8 5 
+mean squared error = 2.301088; netperf = 1.150544; mse = 1.150544; trial = 66/100; NN size = 9 5 
+mean squared error = 1.702171; netperf = 0.851086; mse = 0.851086; trial = 67/100; NN size = 10 5 
+mean squared error = 2.144917; netperf = 1.072458; mse = 1.072458; trial = 68/100; NN size = 11 5 
+mean squared error = 3.777848; netperf = 1.888924; mse = 1.888924; trial = 69/100; NN size = 12 5 
+mean squared error = 1.776416; netperf = 0.888208; mse = 0.888208; trial = 70/100; NN size = 13 5 
+mean squared error = 23.368721; netperf = 11.684360; mse = 11.684360; trial = 71/100; NN size = 14 5 
+mean squared error = 2.769869; netperf = 1.384934; mse = 1.384934; trial = 72/100; NN size = 15 5 
+mean squared error = 2.812525; netperf = 1.406262; mse = 1.406262; trial = 73/100; NN size = 16 5 
+mean squared error = 2.595442; netperf = 1.297721; mse = 1.297721; trial = 74/100; NN size = 17 5 
+mean squared error = 1.814766; netperf = 0.907383; mse = 0.907383; trial = 75/100; NN size = 18 5 
+mean squared error = 3.055867; netperf = 1.527933; mse = 1.527933; trial = 76/100; NN size = 4 6 
+mean squared error = 2.423084; netperf = 1.211542; mse = 1.211542; trial = 77/100; NN size = 5 6 
+mean squared error = 2.268292; netperf = 1.134146; mse = 1.134146; trial = 78/100; NN size = 6 6 
+mean squared error = 2.683188; netperf = 1.341594; mse = 1.341594; trial = 79/100; NN size = 7 6 
+mean squared error = 2.701957; netperf = 1.350979; mse = 1.350979; trial = 80/100; NN size = 8 6 
+mean squared error = 2.527685; netperf = 1.263843; mse = 1.263843; trial = 81/100; NN size = 9 6 
+mean squared error = 2.505067; netperf = 1.252533; mse = 1.252533; trial = 82/100; NN size = 10 6 
+mean squared error = 3.374244; netperf = 1.687122; mse = 1.687122; trial = 83/100; NN size = 11 6 
+mean squared error = 1.993723; netperf = 0.996862; mse = 0.996862; trial = 84/100; NN size = 12 6 
+mean squared error = 2.309454; netperf = 1.154727; mse = 1.154727; trial = 85/100; NN size = 13 6 
+mean squared error = 2.379211; netperf = 1.189605; mse = 1.189605; trial = 86/100; NN size = 14 6 
+mean squared error = 2.346847; netperf = 1.173423; mse = 1.173423; trial = 87/100; NN size = 15 6 
+mean squared error = 2.059549; netperf = 1.029774; mse = 1.029774; trial = 88/100; NN size = 16 6 
+mean squared error = 77.246672; netperf = 38.623336; mse = 38.623336; trial = 89/100; NN size = 17 6 
+mean squared error = 37.255873; netperf = 18.627936; mse = 18.627936; trial = 90/100; NN size = 18 6 
+mean squared error = 3.018132; netperf = 1.509066; mse = 1.509066; trial = 91/100; NN size = 4 7 
+mean squared error = 3.282349; netperf = 1.641174; mse = 1.641174; trial = 92/100; NN size = 5 7 
+mean squared error = 2.545664; netperf = 1.272832; mse = 1.272832; trial = 93/100; NN size = 6 7 
+mean squared error = 2.966671; netperf = 1.483335; mse = 1.483335; trial = 94/100; NN size = 7 7 
+mean squared error = 2.580867; netperf = 1.290433; mse = 1.290433; trial = 95/100; NN size = 8 7 
+mean squared error = 2.018600; netperf = 1.009300; mse = 1.009300; trial = 96/100; NN size = 9 7 
+mean squared error = 43.116599; netperf = 21.558299; mse = 21.558299; trial = 97/100; NN size = 10 7 
+mean squared error = 1.870366; netperf = 0.935183; mse = 0.935183; trial = 98/100; NN size = 11 7 
+mean squared error = 2.211249; netperf = 1.105624; mse = 1.105624; trial = 99/100; NN size = 12 7 
+mean squared error = 1.410850; netperf = 0.705425; mse = 0.705425; trial = 100/100; NN size = 13 7 
+mean squared error = 1.890612; netperf = 0.945306; mse = 0.945306; trial = 101/100; NN size = 14 7 
+lower fitnet best out of 101 trial mean squared error = 1.410850 netperf = 0.705425 NN size = 13 7
+rank transformation...
+distmesh transformation...
+Reduced sonic space transformed uniformity = 0.056949
+redistr neigh distortion singledim 23492 - 40.052512%; alldim 19 - 0.032394%; total check 58653
+training NN fitnet...
+mean squared error = 13.545205; netperf = 4.515068; mse = 4.515068; trial = 1/100; NN size = 6 0 
+mean squared error = 13.984877; netperf = 4.661626; mse = 4.661626; trial = 2/100; NN size = 7 0 
+mean squared error = 13.562146; netperf = 4.520715; mse = 4.520715; trial = 3/100; NN size = 8 0 
+mean squared error = 12.492088; netperf = 4.164029; mse = 4.164029; trial = 4/100; NN size = 9 0 
+mean squared error = 13.173827; netperf = 4.391276; mse = 4.391276; trial = 5/100; NN size = 10 0 
+mean squared error = 12.349665; netperf = 4.116555; mse = 4.116555; trial = 6/100; NN size = 11 0 
+mean squared error = 11.060993; netperf = 3.686998; mse = 3.686998; trial = 7/100; NN size = 12 0 
+mean squared error = 12.494476; netperf = 4.164825; mse = 4.164825; trial = 8/100; NN size = 13 0 
+mean squared error = 14.443321; netperf = 4.814440; mse = 4.814440; trial = 9/100; NN size = 14 0 
+mean squared error = 22.889148; netperf = 7.629716; mse = 7.629716; trial = 10/100; NN size = 15 0 
+mean squared error = 12.209246; netperf = 4.069749; mse = 4.069749; trial = 11/100; NN size = 16 0 
+mean squared error = 12.477740; netperf = 4.159247; mse = 4.159247; trial = 12/100; NN size = 17 0 
+mean squared error = 12.654565; netperf = 4.218188; mse = 4.218188; trial = 13/100; NN size = 18 0 
+mean squared error = 10.770783; netperf = 3.590261; mse = 3.590261; trial = 14/100; NN size = 19 0 
+mean squared error = 11.606949; netperf = 3.868983; mse = 3.868983; trial = 15/100; NN size = 20 0 
+mean squared error = 14.317553; netperf = 4.772518; mse = 4.772518; trial = 16/100; NN size = 6 3 
+mean squared error = 14.770556; netperf = 4.923519; mse = 4.923519; trial = 17/100; NN size = 7 3 
+mean squared error = 13.164898; netperf = 4.388299; mse = 4.388299; trial = 18/100; NN size = 8 3 
+mean squared error = 67.230633; netperf = 22.410211; mse = 22.410211; trial = 19/100; NN size = 9 3 
+mean squared error = 18.272587; netperf = 6.090862; mse = 6.090862; trial = 20/100; NN size = 10 3 
+mean squared error = 13.904489; netperf = 4.634830; mse = 4.634830; trial = 21/100; NN size = 11 3 
+mean squared error = 14.007445; netperf = 4.669148; mse = 4.669148; trial = 22/100; NN size = 12 3 
+mean squared error = 14.414762; netperf = 4.804921; mse = 4.804921; trial = 23/100; NN size = 13 3 
+mean squared error = 27.126156; netperf = 9.042052; mse = 9.042052; trial = 24/100; NN size = 14 3 
+mean squared error = 55.201066; netperf = 18.400355; mse = 18.400355; trial = 25/100; NN size = 15 3 
+mean squared error = 28.499702; netperf = 9.499901; mse = 9.499901; trial = 26/100; NN size = 16 3 
+mean squared error = 16.456162; netperf = 5.485387; mse = 5.485387; trial = 27/100; NN size = 17 3 
+mean squared error = 14.796911; netperf = 4.932304; mse = 4.932304; trial = 28/100; NN size = 18 3 
+mean squared error = 102.043004; netperf = 34.014335; mse = 34.014335; trial = 29/100; NN size = 19 3 
+mean squared error = 50.254865; netperf = 16.751622; mse = 16.751622; trial = 30/100; NN size = 20 3 
+mean squared error = 11.095105; netperf = 3.698368; mse = 3.698368; trial = 31/100; NN size = 6 4 
+mean squared error = 11.074583; netperf = 3.691528; mse = 3.691528; trial = 32/100; NN size = 7 4 
+mean squared error = 10.339628; netperf = 3.446543; mse = 3.446543; trial = 33/100; NN size = 8 4 
+mean squared error = 14.965229; netperf = 4.988410; mse = 4.988410; trial = 34/100; NN size = 9 4 
+mean squared error = 11.406328; netperf = 3.802109; mse = 3.802109; trial = 35/100; NN size = 10 4 
+mean squared error = 12.970916; netperf = 4.323639; mse = 4.323639; trial = 36/100; NN size = 11 4 
+mean squared error = 10.942518; netperf = 3.647506; mse = 3.647506; trial = 37/100; NN size = 12 4 
+mean squared error = 14.612818; netperf = 4.870939; mse = 4.870939; trial = 38/100; NN size = 13 4 
+mean squared error = 11.461702; netperf = 3.820567; mse = 3.820567; trial = 39/100; NN size = 14 4 
+mean squared error = 19.959928; netperf = 6.653309; mse = 6.653309; trial = 40/100; NN size = 15 4 
+mean squared error = 16.025205; netperf = 5.341735; mse = 5.341735; trial = 41/100; NN size = 16 4 
+mean squared error = 11.537025; netperf = 3.845675; mse = 3.845675; trial = 42/100; NN size = 17 4 
+mean squared error = 22.142550; netperf = 7.380850; mse = 7.380850; trial = 43/100; NN size = 18 4 
+mean squared error = 8.838776; netperf = 2.946259; mse = 2.946259; trial = 44/100; NN size = 19 4 
+mean squared error = 30.616916; netperf = 10.205639; mse = 10.205639; trial = 45/100; NN size = 20 4 
+mean squared error = 14.696206; netperf = 4.898735; mse = 4.898735; trial = 46/100; NN size = 6 5 
+mean squared error = 12.115906; netperf = 4.038635; mse = 4.038635; trial = 47/100; NN size = 7 5 
+mean squared error = 14.082605; netperf = 4.694202; mse = 4.694202; trial = 48/100; NN size = 8 5 
+mean squared error = 13.269323; netperf = 4.423108; mse = 4.423108; trial = 49/100; NN size = 9 5 
+mean squared error = 100.753881; netperf = 33.584627; mse = 33.584627; trial = 50/100; NN size = 10 5 
+mean squared error = 16.971375; netperf = 5.657125; mse = 5.657125; trial = 51/100; NN size = 11 5 
+mean squared error = 13.010837; netperf = 4.336946; mse = 4.336946; trial = 52/100; NN size = 12 5 
+mean squared error = 9.090871; netperf = 3.030290; mse = 3.030290; trial = 53/100; NN size = 13 5 
+mean squared error = 29.319474; netperf = 9.773158; mse = 9.773158; trial = 54/100; NN size = 14 5 
+mean squared error = 11.694998; netperf = 3.898333; mse = 3.898333; trial = 55/100; NN size = 15 5 
+mean squared error = 9.156933; netperf = 3.052311; mse = 3.052311; trial = 56/100; NN size = 16 5 
+mean squared error = 54.238195; netperf = 18.079398; mse = 18.079398; trial = 57/100; NN size = 17 5 
+mean squared error = 44.139701; netperf = 14.713234; mse = 14.713234; trial = 58/100; NN size = 18 5 
+mean squared error = 63.306589; netperf = 21.102196; mse = 21.102196; trial = 59/100; NN size = 19 5 
+mean squared error = 9.555560; netperf = 3.185187; mse = 3.185187; trial = 60/100; NN size = 20 5 
+mean squared error = 11.383738; netperf = 3.794579; mse = 3.794579; trial = 61/100; NN size = 6 6 
+mean squared error = 11.745928; netperf = 3.915309; mse = 3.915309; trial = 62/100; NN size = 7 6 
+mean squared error = 12.410610; netperf = 4.136870; mse = 4.136870; trial = 63/100; NN size = 8 6 
+mean squared error = 10.608175; netperf = 3.536058; mse = 3.536058; trial = 64/100; NN size = 9 6 
+mean squared error = 10.807357; netperf = 3.602452; mse = 3.602452; trial = 65/100; NN size = 10 6 
+mean squared error = 11.239779; netperf = 3.746593; mse = 3.746593; trial = 66/100; NN size = 11 6 
+mean squared error = 12.636508; netperf = 4.212169; mse = 4.212169; trial = 67/100; NN size = 12 6 
+mean squared error = 17.045002; netperf = 5.681667; mse = 5.681667; trial = 68/100; NN size = 13 6 
+mean squared error = 11.161154; netperf = 3.720385; mse = 3.720385; trial = 69/100; NN size = 14 6 
+mean squared error = 12.288463; netperf = 4.096154; mse = 4.096154; trial = 70/100; NN size = 15 6 
+mean squared error = 11.748854; netperf = 3.916285; mse = 3.916285; trial = 71/100; NN size = 16 6 
+mean squared error = 13.203406; netperf = 4.401135; mse = 4.401135; trial = 72/100; NN size = 17 6 
+mean squared error = 11.817719; netperf = 3.939240; mse = 3.939240; trial = 73/100; NN size = 18 6 
+mean squared error = 12.160797; netperf = 4.053599; mse = 4.053599; trial = 74/100; NN size = 19 6 
+mean squared error = 12.264889; netperf = 4.088296; mse = 4.088296; trial = 75/100; NN size = 20 6 
+mean squared error = 15.158369; netperf = 5.052790; mse = 5.052790; trial = 76/100; NN size = 6 7 
+mean squared error = 17.490201; netperf = 5.830067; mse = 5.830067; trial = 77/100; NN size = 7 7 
+mean squared error = 50.330573; netperf = 16.776858; mse = 16.776858; trial = 78/100; NN size = 8 7 
+mean squared error = 11.777034; netperf = 3.925678; mse = 3.925678; trial = 79/100; NN size = 9 7 
+mean squared error = 20.640150; netperf = 6.880050; mse = 6.880050; trial = 80/100; NN size = 10 7 
+mean squared error = 11.457315; netperf = 3.819105; mse = 3.819105; trial = 81/100; NN size = 11 7 
+mean squared error = 13.897512; netperf = 4.632504; mse = 4.632504; trial = 82/100; NN size = 12 7 
+mean squared error = 13.142909; netperf = 4.380970; mse = 4.380970; trial = 83/100; NN size = 13 7 
+mean squared error = 11.400895; netperf = 3.800298; mse = 3.800298; trial = 84/100; NN size = 14 7 
+mean squared error = 11.213165; netperf = 3.737722; mse = 3.737722; trial = 85/100; NN size = 15 7 
+mean squared error = 12.319031; netperf = 4.106344; mse = 4.106344; trial = 86/100; NN size = 16 7 
+mean squared error = 11.445915; netperf = 3.815305; mse = 3.815305; trial = 87/100; NN size = 17 7 
+mean squared error = 10.243644; netperf = 3.414548; mse = 3.414548; trial = 88/100; NN size = 18 7 
+mean squared error = 9.801179; netperf = 3.267060; mse = 3.267060; trial = 89/100; NN size = 19 7 
+mean squared error = 10.091307; netperf = 3.363769; mse = 3.363769; trial = 90/100; NN size = 20 7 
+mean squared error = 10.525833; netperf = 3.508611; mse = 3.508611; trial = 91/100; NN size = 6 8 
+mean squared error = 12.904309; netperf = 4.301436; mse = 4.301436; trial = 92/100; NN size = 7 8 
+mean squared error = 12.264181; netperf = 4.088060; mse = 4.088060; trial = 93/100; NN size = 8 8 
+mean squared error = 11.022731; netperf = 3.674244; mse = 3.674244; trial = 94/100; NN size = 9 8 
+mean squared error = 29.731343; netperf = 9.910448; mse = 9.910448; trial = 95/100; NN size = 10 8 
+mean squared error = 11.405030; netperf = 3.801677; mse = 3.801677; trial = 96/100; NN size = 11 8 
+mean squared error = 12.228204; netperf = 4.076068; mse = 4.076068; trial = 97/100; NN size = 12 8 
+mean squared error = 12.388885; netperf = 4.129628; mse = 4.129628; trial = 98/100; NN size = 13 8 
+mean squared error = 12.194537; netperf = 4.064846; mse = 4.064846; trial = 99/100; NN size = 14 8 
+mean squared error = 32.510807; netperf = 10.836936; mse = 10.836936; trial = 100/100; NN size = 15 8 
+mean squared error = 11.270746; netperf = 3.756915; mse = 3.756915; trial = 101/100; NN size = 16 8 
+fitnet best out of 101 trial mean squared error = 8.838776 netperf = 2.946259 NN size = 19 4
+neighborhood graph...
+**********************************
+****** DMI MAPPING FREQ END ******
+**********************************
