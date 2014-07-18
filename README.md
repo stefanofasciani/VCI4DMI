@@ -1,10 +1,7 @@
 
- __      _______ _____ _  _   _____  __  __ _____ 
- \ \    / / ____|_   _| || | |  __ \|  \/  |_   _|
-  \ \  / / |      | | | || |_| |  | | \  / | | |  
-   \ \/ /| |      | | |__   _| |  | | |\/| | | |  
-    \  / | |____ _| |_   | | | |__| | |  | |_| |_ 
-     \/   \_____|_____|  |_| |_____/|_|  |_|_____|
+=======
+VCI4DMI
+=======
 
 ==============================================================================
 Voice-Controlled Interface for Digital Musical Instruments
@@ -15,7 +12,8 @@ implementing ad-hoc mappings to control an arbitrary number of real-valued
 instrument parameters by variation of the voice timbre.
 The VCI4DMI can be obtained at http://stefanofasciani.com/vci4dmi.html
 VCI4DMI Copyright (C) 2014 Stefano Fasciani, National University of Singapore
-Inquiries: stefanofasciani@stefanofasciani.com
+stefanofasciani@stefanofasciani.com
+
 ==============================================================================
 
 
