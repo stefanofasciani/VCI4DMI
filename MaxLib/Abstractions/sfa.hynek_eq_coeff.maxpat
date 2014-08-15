@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 5,
+			"revision" : 8,
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 621.0, 51.0, 909.0, 985.0 ],
+		"rect" : [ 130.0, 44.0, 909.0, 985.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -29,6 +29,50 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontname" : "Verdana",
+					"fontsize" : 10.0,
+					"frgb" : 0.0,
+					"id" : "obj-34",
+					"linecount" : 4,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 733.0, 844.0, 75.0, 55.0 ],
+					"text" : "hynek equalization coefficients fmat vector"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Verdana",
+					"fontsize" : 10.0,
+					"frgb" : 0.0,
+					"id" : "obj-16",
+					"linecount" : 12,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 14.0, 491.0, 471.0, 152.0 ],
+					"text" : "FTM abstraction\ncomputes the hynek equalization coefficients necessary for the computation of the bark auditory spectrum.\n\nThe first inlet input is the number of bands\nThe second inlet input is the sampling rate\nThe outlet output is the fmat vector containing hynek equalization coefficients\n\n\nThis object is part of the Max porting of the function rastaplp.m from Daniel P. W. Ellis \"PLP and RASTA (and MFCC, and inversion) in MATLAB\nhttp://www.ee.columbia.edu/~dpwe/resources/matlab/rastamat/"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Verdana",
+					"fontsize" : 24.0,
+					"frgb" : 0.0,
+					"id" : "obj-33",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 14.0, 455.0, 297.0, 36.0 ],
+					"text" : "sfa.hynek_eq_coeff"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
 					"frgb" : 0.0,
@@ -37,8 +81,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 502.0, 157.0, 430.0, 420.0 ],
-					"text" : "This file is part of the Voice-Controlled Interface for Digital Musical Instruments (VCI4DMI).\n\nThe Voice-Controlled Interface for Digital Musical Instruments (VCI4DMI) \nis a collection of MAX patches, MAX externals and MATLAB functions \nimplementing ad-hoc mappings to control an arbitrary number of real-valued\ninstrument parameters by variation of the voice timbre.\nThe VCI4DMI can be obtained at http://stefanofasciani.com/vci4dmi.html\nVCI4DMI Copyright (C) 2014 Stefano Fasciani, National University of Singapore\nInquiries: stefanofasciani@stefanofasciani.com\n\nThe VCI4DMI is free software: you can redistribute it and/or modify\nit under the terms of the GNU Lesser General Public License as published by\nthe Free Software Foundation, either version 3 of the License, or\n(at your option) any later version.\n\nThe VCI4DMI is distributed in the hope that it will be useful,\nbut WITHOUT ANY WARRANTY; without even the implied warranty of\nMERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\nGNU Less General Public License for more details.\n\nYou should have received a copy of the GNU Lesser General Public License\nalong with Foobar.  If not, see <http://www.gnu.org/licenses/>.\n\nIf you use the VCI4DMI or any part of it in any program or publication,\nplease acknowledge its authors by adding a reference any of these pubblications:\n\nFasciani, S. and Wyse, L. 2012. \"Adapting general purpose interfaces to synthesis\nengines using unsupervised dimensionality reduction techniques and inverse mapping\nfrom features to parameters\". In Proceedings of the 2012 International Computer\nMusic Conference. Ljubljana, Slovenia.\n\nFasciani, S. and Wyse, L. 2013. \"A Self-Organizing Gesture Map for a\nVoice-Controlled Instrument Interface. In Proceedings of the 13th conference\non New Interfaces for Musical Expression\". Daejeon, Korea.\n\nFasciani, S. 2014. \"Voice-Controlled Interface for Digital Musical Instruments\".\nPhD Thesis, National University of Singapore."
+					"patching_rect" : [ 14.0, 21.0, 430.0, 420.0 ],
+					"text" : "This file is part of the Voice-Controlled Interface for Digital Musical Instruments (VCI4DMI).\n\nThe Voice-Controlled Interface for Digital Musical Instruments (VCI4DMI) \nis a collection of MAX patches, MAX externals and MATLAB functions \nimplementing ad-hoc mappings to control an arbirtary number of real-valued\ninstrument parameters by variation of the voice timbre.\nThe VCI4DMI can be obtained at http://stefanofasciani.com/vci4dmi.html\nVCI4DMI Copyright (C) 2014 Stefano Fasciani, National University of Singapore\nInquiries: stefanofasciani@stefanofasciani.com\n\nThe VCI4DMI is free software: you can redistribute it and/or modify\nit under the terms of the GNU Lesser General Public License as published by\nthe Free Software Foundation, either version 3 of the License, or\n(at your option) any later version.\n\nThe VCI4DMI is distributed in the hope that it will be useful,\nbut WITHOUT ANY WARRANTY; without even the implied warranty of\nMERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\nGNU Less General Public License for more details.\n\nYou should have received a copy of the GNU Lesser General Public License\nalong with Foobar.  If not, see <http://www.gnu.org/licenses/>.\n\nIf you use the VCI4DMI or any part of it in any program or publication,\nplease acknowledge its authors by adding a reference any of these pubblications:\n\nFasciani, S. and Wyse, L. 2012. \"Adapting general purpose interfaces to synthesis\nengines using unsupervised dimensionality reduction techniques and inverse mapping\nfrom features to parameters\". In Proceedings of the 2012 International Computer\nMusic Conference. Ljubljana, Slovenia.\n\nFasciani, S. and Wyse, L. 2013. \"A Self-Organizing Gesture Map for a\nVoice-Controlled Instrument Interface. In Proceedings of the 13th conference\non New Interfaces for Musical Expression\". Daejeon, Korea.\n\nFasciani, S. 2014. \"Voice-Controlled Interface for Digital Musical Instruments\".\nPhD Thesis, National University of Singapore."
 				}
 
 			}
@@ -49,34 +93,34 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 418.0, 146.0, 20.0, 20.0 ]
+					"patching_rect" : [ 909.0, 153.0, 20.0, 20.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
+					"fontname" : "Verdana",
 					"fontsize" : 10.0,
 					"frgb" : 0.0,
 					"id" : "obj-26",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 242.0, 63.0, 63.0, 18.0 ],
+					"patching_rect" : [ 733.0, 70.0, 71.0, 19.0 ],
 					"text" : "sample rate"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
+					"fontname" : "Verdana",
 					"fontsize" : 10.0,
 					"frgb" : 0.0,
 					"id" : "obj-95",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 29.0, 63.0, 63.0, 18.0 ],
+					"patching_rect" : [ 520.0, 70.0, 70.0, 19.0 ],
 					"text" : "nbands"
 				}
 
@@ -90,7 +134,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 144.0, 29.0, 52.0, 18.0 ],
+					"patching_rect" : [ 635.0, 36.0, 52.0, 18.0 ],
 					"text" : "loadbang"
 				}
 
@@ -104,7 +148,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 93.0, 478.0, 86.0, 18.0 ],
+					"patching_rect" : [ 584.0, 485.0, 86.0, 18.0 ],
 					"text" : "sfa.bark2hz_vect"
 				}
 
@@ -124,8 +168,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 201.685364, 772.0, 57.822403, 16.0 ],
-					"presentation_rect" : [ 201.685364, 772.0, 57.822403, 16.0 ],
+					"patching_rect" : [ 692.685364, 779.0, 57.822403, 16.0 ],
+					"presentation_rect" : [ 692.685364, 779.0, 57.822403, 16.0 ],
 					"text" : [ "_($1 mul $2)" ]
 				}
 
@@ -145,8 +189,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 260.0, 723.0, 54.49091, 16.0 ],
-					"presentation_rect" : [ 260.0, 723.0, 54.49091, 16.0 ],
+					"patching_rect" : [ 751.0, 730.0, 54.49091, 16.0 ],
+					"presentation_rect" : [ 751.0, 730.0, 54.49091, 16.0 ],
 					"text" : [ "_($1 div $2)" ]
 				}
 
@@ -166,8 +210,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 325.686188, 668.0, 86.213364, 16.0 ],
-					"presentation_rect" : [ 325.686188, 668.0, 86.213364, 16.0 ],
+					"patching_rect" : [ 816.686157, 675.0, 86.213364, 16.0 ],
+					"presentation_rect" : [ 816.686157, 675.0, 86.213364, 16.0 ],
 					"text" : [ "_($1 add 9610000)" ]
 				}
 
@@ -181,7 +225,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 446.0, 598.0, 71.0, 18.0 ],
+					"patching_rect" : [ 937.0, 605.0, 71.0, 18.0 ],
 					"saved_object_attributes" : 					{
 						"ftm_objref_conv" : 0,
 						"ftm_scope" : 0
@@ -200,7 +244,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 360.0, 598.0, 71.0, 18.0 ],
+					"patching_rect" : [ 851.0, 605.0, 71.0, 18.0 ],
 					"saved_object_attributes" : 					{
 						"ftm_objref_conv" : 0,
 						"ftm_scope" : 0
@@ -225,8 +269,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 214.0, 668.0, 86.213364, 16.0 ],
-					"presentation_rect" : [ 214.0, 668.0, 86.213364, 16.0 ],
+					"patching_rect" : [ 705.0, 675.0, 86.213364, 16.0 ],
+					"presentation_rect" : [ 705.0, 675.0, 86.213364, 16.0 ],
 					"text" : [ "_($1 add 1440000)" ]
 				}
 
@@ -246,8 +290,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 93.0, 668.0, 90.629303, 16.0 ],
-					"presentation_rect" : [ 93.0, 668.0, 90.629303, 16.0 ],
+					"patching_rect" : [ 584.0, 675.0, 90.629303, 16.0 ],
+					"presentation_rect" : [ 584.0, 675.0, 90.629303, 16.0 ],
 					"text" : [ "_(($2 div $1) pow 2)" ]
 				}
 
@@ -261,7 +305,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 19.0, 598.0, 66.0, 18.0 ],
+					"patching_rect" : [ 510.0, 605.0, 66.0, 18.0 ],
 					"text" : "ftmp"
 				}
 
@@ -275,7 +319,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 273.0, 598.0, 66.0, 18.0 ],
+					"patching_rect" : [ 764.0, 605.0, 66.0, 18.0 ],
 					"text" : "fsq"
 				}
 
@@ -289,7 +333,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 196.0, 598.0, 71.0, 18.0 ],
+					"patching_rect" : [ 687.0, 605.0, 71.0, 18.0 ],
 					"saved_object_attributes" : 					{
 						"ftm_objref_conv" : 0,
 						"ftm_scope" : 0
@@ -314,8 +358,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 93.0, 598.0, 80.649483, 16.0 ],
-					"presentation_rect" : [ 93.0, 598.0, 80.649483, 16.0 ],
+					"patching_rect" : [ 584.0, 605.0, 80.649483, 16.0 ],
+					"presentation_rect" : [ 584.0, 605.0, 80.649483, 16.0 ],
 					"text" : [ "_($1 add 160000)" ]
 				}
 
@@ -329,7 +373,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 214.0, 472.0, 66.0, 18.0 ],
+					"patching_rect" : [ 705.0, 479.0, 66.0, 18.0 ],
 					"text" : "bark2hz"
 				}
 
@@ -343,7 +387,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 418.0, 229.0, 32.5, 16.0 ],
+					"patching_rect" : [ 909.0, 236.0, 32.5, 16.0 ],
 					"text" : "clear"
 				}
 
@@ -363,8 +407,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 93.0, 525.0, 54.49091, 16.0 ],
-					"presentation_rect" : [ 93.0, 525.0, 54.49091, 16.0 ],
+					"patching_rect" : [ 584.0, 532.0, 54.49091, 16.0 ],
+					"presentation_rect" : [ 584.0, 532.0, 54.49091, 16.0 ],
 					"text" : [ "_($1 pow 2)" ]
 				}
 
@@ -384,8 +428,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 242.0, 379.0, 65.599144, 16.0 ],
-					"presentation_rect" : [ 242.0, 379.0, 65.599144, 16.0 ],
+					"patching_rect" : [ 733.0, 386.0, 65.599144, 16.0 ],
+					"presentation_rect" : [ 733.0, 386.0, 65.599144, 16.0 ],
 					"text" : [ "_($2 / ($1 - 1))" ]
 				}
 
@@ -399,7 +443,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 93.0, 559.0, 71.0, 18.0 ],
+					"patching_rect" : [ 584.0, 566.0, 71.0, 18.0 ],
 					"saved_object_attributes" : 					{
 						"ftm_objref_conv" : 0,
 						"ftm_scope" : 0
@@ -424,8 +468,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 93.0, 429.0, 128.985443, 16.0 ],
-					"presentation_rect" : [ 93.0, 429.0, 128.985443, 16.0 ],
+					"patching_rect" : [ 584.0, 436.0, 128.985443, 16.0 ],
+					"presentation_rect" : [ 584.0, 436.0, 128.985443, 16.0 ],
 					"text" : [ "_(($temp ramp 0 $1) mul $2)" ]
 				}
 
@@ -445,8 +489,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 100.0, 305.0, 84.513428, 16.0 ],
-					"presentation_rect" : [ 100.0, 305.0, 84.513428, 16.0 ],
+					"patching_rect" : [ 591.0, 312.0, 84.513428, 16.0 ],
+					"presentation_rect" : [ 591.0, 312.0, 84.513428, 16.0 ],
 					"text" : [ "_($temp size 1 $1)" ]
 				}
 
@@ -465,9 +509,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 418.0, 258.0, 63.224747, 17.0 ],
+					"patching_rect" : [ 909.0, 265.0, 63.224747, 17.0 ],
 					"persistence" : 0,
-					"presentation_rect" : [ 418.0, 258.0, 63.224747, 17.0 ],
+					"presentation_rect" : [ 909.0, 265.0, 63.224747, 17.0 ],
 					"scope" : 0,
 					"text" : "fmat"
 				}
@@ -482,7 +526,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 242.0, 324.0, 62.0, 18.0 ],
+					"patching_rect" : [ 733.0, 331.0, 62.0, 18.0 ],
 					"text" : "sfa.hz2bark"
 				}
 
@@ -496,7 +540,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 59.5, 229.0, 32.5, 16.0 ],
+					"patching_rect" : [ 550.5, 236.0, 32.5, 16.0 ],
 					"text" : "21."
 				}
 
@@ -510,7 +554,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 268.245453, 229.0, 38.0, 16.0 ],
+					"patching_rect" : [ 759.245483, 236.0, 38.0, 16.0 ],
 					"text" : "16000"
 				}
 
@@ -530,8 +574,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 346.0, 347.0, 45.585758, 16.0 ],
-					"presentation_rect" : [ 346.0, 347.0, 45.585758, 16.0 ],
+					"patching_rect" : [ 837.0, 354.0, 45.585758, 16.0 ],
+					"presentation_rect" : [ 837.0, 354.0, 45.585758, 16.0 ],
 					"text" : [ "_($1);($2)" ]
 				}
 
@@ -544,7 +588,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 242.0, 87.0, 25.0, 25.0 ]
+					"patching_rect" : [ 733.0, 94.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -556,7 +600,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 29.0, 87.0, 25.0, 25.0 ]
+					"patching_rect" : [ 520.0, 94.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -567,7 +611,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 201.685364, 837.0, 25.0, 25.0 ]
+					"patching_rect" : [ 692.685364, 844.0, 25.0, 25.0 ]
 				}
 
 			}

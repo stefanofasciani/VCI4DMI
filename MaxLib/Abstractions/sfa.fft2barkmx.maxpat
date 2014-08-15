@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 5,
+			"revision" : 8,
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 414.0, 122.0, 1016.0, 860.0 ],
+		"rect" : [ 41.0, 90.0, 1389.0, 910.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -29,6 +29,65 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontname" : "Verdana",
+					"fontsize" : 10.0,
+					"frgb" : 0.0,
+					"id" : "obj-36",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1376.806152, 1016.0, 75.0, 31.0 ],
+					"text" : "num Bark bands"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Verdana",
+					"fontsize" : 10.0,
+					"frgb" : 0.0,
+					"id" : "obj-38",
+					"linecount" : 7,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1274.5, 1016.0, 48.0, 92.0 ],
+					"text" : "wts matrix for Bark coeff computation"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Verdana",
+					"fontsize" : 10.0,
+					"frgb" : 0.0,
+					"id" : "obj-15",
+					"linecount" : 10,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 32.0, 495.0, 512.0, 128.0 ],
+					"text" : "FTM abstraction\nsub abstraction of sfa.bark\ngiven the fft size and the sample rate computes the wts matrix necessary to compute the Bark coefficient from the spectrum of the signal, and output the number of Bark bands (depends on the sampling rate).\n\nThis object is part of the Max porting of the function rastaplp.m from Daniel P. W. Ellis \"PLP and RASTA (and MFCC, and inversion) in MATLAB\nhttp://www.ee.columbia.edu/~dpwe/resources/matlab/rastamat/\nporting of fft2barkmx.m"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Verdana",
+					"fontsize" : 24.0,
+					"frgb" : 0.0,
+					"id" : "obj-26",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 32.0, 459.0, 297.0, 36.0 ],
+					"text" : "sfa.fft2barkmx"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
 					"frgb" : 0.0,
@@ -37,8 +96,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 663.0, 61.0, 430.0, 420.0 ],
-					"text" : "This file is part of the Voice-Controlled Interface for Digital Musical Instruments (VCI4DMI).\n\nThe Voice-Controlled Interface for Digital Musical Instruments (VCI4DMI) \nis a collection of MAX patches, MAX externals and MATLAB functions \nimplementing ad-hoc mappings to control an arbitrary number of real-valued\ninstrument parameters by variation of the voice timbre.\nThe VCI4DMI can be obtained at http://stefanofasciani.com/vci4dmi.html\nVCI4DMI Copyright (C) 2014 Stefano Fasciani, National University of Singapore\nInquiries: stefanofasciani@stefanofasciani.com\n\nThe VCI4DMI is free software: you can redistribute it and/or modify\nit under the terms of the GNU Lesser General Public License as published by\nthe Free Software Foundation, either version 3 of the License, or\n(at your option) any later version.\n\nThe VCI4DMI is distributed in the hope that it will be useful,\nbut WITHOUT ANY WARRANTY; without even the implied warranty of\nMERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\nGNU Less General Public License for more details.\n\nYou should have received a copy of the GNU Lesser General Public License\nalong with Foobar.  If not, see <http://www.gnu.org/licenses/>.\n\nIf you use the VCI4DMI or any part of it in any program or publication,\nplease acknowledge its authors by adding a reference any of these pubblications:\n\nFasciani, S. and Wyse, L. 2012. \"Adapting general purpose interfaces to synthesis\nengines using unsupervised dimensionality reduction techniques and inverse mapping\nfrom features to parameters\". In Proceedings of the 2012 International Computer\nMusic Conference. Ljubljana, Slovenia.\n\nFasciani, S. and Wyse, L. 2013. \"A Self-Organizing Gesture Map for a\nVoice-Controlled Instrument Interface. In Proceedings of the 13th conference\non New Interfaces for Musical Expression\". Daejeon, Korea.\n\nFasciani, S. 2014. \"Voice-Controlled Interface for Digital Musical Instruments\".\nPhD Thesis, National University of Singapore."
+					"patching_rect" : [ 32.0, 27.0, 430.0, 420.0 ],
+					"text" : "This file is part of the Voice-Controlled Interface for Digital Musical Instruments (VCI4DMI).\n\nThe Voice-Controlled Interface for Digital Musical Instruments (VCI4DMI) \nis a collection of MAX patches, MAX externals and MATLAB functions \nimplementing ad-hoc mappings to control an arbirtary number of real-valued\ninstrument parameters by variation of the voice timbre.\nThe VCI4DMI can be obtained at http://stefanofasciani.com/vci4dmi.html\nVCI4DMI Copyright (C) 2014 Stefano Fasciani, National University of Singapore\nInquiries: stefanofasciani@stefanofasciani.com\n\nThe VCI4DMI is free software: you can redistribute it and/or modify\nit under the terms of the GNU Lesser General Public License as published by\nthe Free Software Foundation, either version 3 of the License, or\n(at your option) any later version.\n\nThe VCI4DMI is distributed in the hope that it will be useful,\nbut WITHOUT ANY WARRANTY; without even the implied warranty of\nMERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\nGNU Less General Public License for more details.\n\nYou should have received a copy of the GNU Lesser General Public License\nalong with Foobar.  If not, see <http://www.gnu.org/licenses/>.\n\nIf you use the VCI4DMI or any part of it in any program or publication,\nplease acknowledge its authors by adding a reference any of these pubblications:\n\nFasciani, S. and Wyse, L. 2012. \"Adapting general purpose interfaces to synthesis\nengines using unsupervised dimensionality reduction techniques and inverse mapping\nfrom features to parameters\". In Proceedings of the 2012 International Computer\nMusic Conference. Ljubljana, Slovenia.\n\nFasciani, S. and Wyse, L. 2013. \"A Self-Organizing Gesture Map for a\nVoice-Controlled Instrument Interface. In Proceedings of the 13th conference\non New Interfaces for Musical Expression\". Daejeon, Korea.\n\nFasciani, S. 2014. \"Voice-Controlled Interface for Digital Musical Instruments\".\nPhD Thesis, National University of Singapore."
 				}
 
 			}
@@ -51,7 +110,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 206.317596, 4.0, 52.0, 18.0 ],
+					"patching_rect" : [ 780.317627, 12.0, 52.0, 18.0 ],
 					"text" : "loadbang"
 				}
 
@@ -65,7 +124,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 42.019791, 526.0, 86.0, 18.0 ],
+					"patching_rect" : [ 616.019775, 534.0, 86.0, 18.0 ],
 					"text" : "sfa.hz2bark_vect"
 				}
 
@@ -77,7 +136,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 802.806152, 970.0, 25.0, 25.0 ]
+					"patching_rect" : [ 1376.806152, 978.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -96,8 +155,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 406.487518, 1130.0, 67.836426, 16.0 ],
-					"presentation_rect" : [ 406.487518, 1130.0, 67.836426, 16.0 ],
+					"patching_rect" : [ 980.487549, 1138.0, 67.836426, 16.0 ],
+					"presentation_rect" : [ 980.487549, 1138.0, 67.836426, 16.0 ],
 					"text" : [ "_($1 size 1 $2)" ]
 				}
 
@@ -117,8 +176,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 280.726929, 678.0, 62.546085, 16.0 ],
-					"presentation_rect" : [ 280.726929, 678.0, 62.546085, 16.0 ],
+					"patching_rect" : [ 854.726929, 686.0, 62.546085, 16.0 ],
+					"presentation_rect" : [ 854.726929, 686.0, 62.546085, 16.0 ],
 					"text" : [ "_(($1 / 2) + 1)" ]
 				}
 
@@ -138,8 +197,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 365.353516, 987.0, 67.836426, 16.0 ],
-					"presentation_rect" : [ 365.353516, 987.0, 67.836426, 16.0 ],
+					"patching_rect" : [ 939.353516, 995.0, 67.836426, 16.0 ],
+					"presentation_rect" : [ 939.353516, 995.0, 67.836426, 16.0 ],
 					"text" : [ "_($1 size 1 $2)" ]
 				}
 
@@ -153,7 +212,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 299.0, 86.0, 38.0, 16.0 ],
+					"patching_rect" : [ 873.0, 94.0, 38.0, 16.0 ],
 					"text" : "16000"
 				}
 
@@ -167,7 +226,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 75.120636, 86.0, 32.5, 16.0 ],
+					"patching_rect" : [ 649.120605, 94.0, 32.5, 16.0 ],
 					"text" : "128"
 				}
 
@@ -181,7 +240,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 420.872131, 71.0, 32.5, 16.0 ],
+					"patching_rect" : [ 994.872131, 79.0, 32.5, 16.0 ],
 					"text" : "clear"
 				}
 
@@ -193,7 +252,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 646.5, 813.0, 20.0, 20.0 ]
+					"patching_rect" : [ 1220.5, 821.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -206,7 +265,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 751.381409, 749.0, 32.5, 18.0 ],
+					"patching_rect" : [ 1325.381348, 757.0, 32.5, 18.0 ],
 					"text" : "- 1"
 				}
 
@@ -218,7 +277,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 709.5, 749.0, 20.0, 20.0 ]
+					"patching_rect" : [ 1283.5, 757.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -231,7 +290,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 673.5, 813.0, 32.5, 16.0 ],
+					"patching_rect" : [ 1247.5, 821.0, 32.5, 16.0 ],
 					"text" : "0"
 				}
 
@@ -251,8 +310,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 700.5, 915.0, 62.262768, 16.0 ],
-					"presentation_rect" : [ 700.5, 915.0, 62.262768, 16.0 ],
+					"patching_rect" : [ 1274.5, 923.0, 62.262768, 16.0 ],
+					"presentation_rect" : [ 1274.5, 923.0, 62.262768, 16.0 ],
 					"text" : [ "_($wts_temp)" ]
 				}
 
@@ -266,7 +325,7 @@
 					"numinlets" : 5,
 					"numoutlets" : 4,
 					"outlettype" : [ "int", "", "", "int" ],
-					"patching_rect" : [ 646.5, 859.0, 73.0, 18.0 ],
+					"patching_rect" : [ 1220.5, 867.0, 73.0, 18.0 ],
 					"text" : "counter 1 2"
 				}
 
@@ -278,7 +337,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 700.5, 970.0, 25.0, 25.0 ]
+					"patching_rect" : [ 1274.5, 978.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -297,8 +356,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 428.224731, 1224.0, 122.322441, 16.0 ],
-					"presentation_rect" : [ 428.224731, 1224.0, 122.322441, 16.0 ],
+					"patching_rect" : [ 1002.224731, 1232.0, 122.322441, 16.0 ],
+					"presentation_rect" : [ 1002.224731, 1232.0, 122.322441, 16.0 ],
 					"text" : [ "_($wts_temp setrow $2 $1)" ]
 				}
 
@@ -318,8 +377,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 410.121613, 1192.0, 76.731796, 16.0 ],
-					"presentation_rect" : [ 410.121613, 1192.0, 76.731796, 16.0 ],
+					"patching_rect" : [ 984.121582, 1200.0, 76.731796, 16.0 ],
+					"presentation_rect" : [ 984.121582, 1200.0, 76.731796, 16.0 ],
 					"text" : [ "_($temp pow $1)" ]
 				}
 
@@ -339,8 +398,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 499.72052, 1130.0, 67.826653, 16.0 ],
-					"presentation_rect" : [ 499.72052, 1130.0, 67.826653, 16.0 ],
+					"patching_rect" : [ 1073.720459, 1138.0, 67.826653, 16.0 ],
+					"presentation_rect" : [ 1073.720459, 1138.0, 67.826653, 16.0 ],
 					"text" : [ "_($temp fill 10)" ]
 				}
 
@@ -359,7 +418,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 5,
+							"revision" : 8,
 							"architecture" : "x86"
 						}
 ,
@@ -628,7 +687,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 406.487518, 1090.0, 84.0, 18.0 ],
+					"patching_rect" : [ 980.487549, 1098.0, 84.0, 18.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -660,7 +719,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 5,
+							"revision" : 8,
 							"architecture" : "x86"
 						}
 ,
@@ -929,7 +988,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 365.353516, 947.0, 84.0, 18.0 ],
+					"patching_rect" : [ 939.353516, 955.0, 84.0, 18.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -962,8 +1021,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 191.120636, 410.0, 128.707001, 16.0 ],
-					"presentation_rect" : [ 191.120636, 410.0, 128.707001, 16.0 ],
+					"patching_rect" : [ 765.120605, 418.0, 128.707001, 16.0 ],
+					"presentation_rect" : [ 765.120605, 418.0, 128.707001, 16.0 ],
 					"text" : [ "_($temp size 1 (1 + ($1 / 2)))" ]
 				}
 
@@ -982,9 +1041,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 476.872131, 154.0, 63.224747, 17.0 ],
+					"patching_rect" : [ 1050.87207, 162.0, 63.224747, 17.0 ],
 					"persistence" : 0,
-					"presentation_rect" : [ 476.872131, 154.0, 63.224747, 17.0 ],
+					"presentation_rect" : [ 1050.87207, 162.0, 63.224747, 17.0 ],
 					"scope" : 0,
 					"text" : "fmat"
 				}
@@ -999,7 +1058,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 365.353516, 1019.0, 71.0, 18.0 ],
+					"patching_rect" : [ 939.353516, 1027.0, 71.0, 18.0 ],
 					"saved_object_attributes" : 					{
 						"ftm_objref_conv" : 0,
 						"ftm_scope" : 0
@@ -1024,8 +1083,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 428.224731, 1054.0, 62.262768, 16.0 ],
-					"presentation_rect" : [ 428.224731, 1054.0, 62.262768, 16.0 ],
+					"patching_rect" : [ 1002.224731, 1062.0, 62.262768, 16.0 ],
+					"presentation_rect" : [ 1002.224731, 1062.0, 62.262768, 16.0 ],
 					"text" : [ "_($temp fill 0)" ]
 				}
 
@@ -1039,7 +1098,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 323.0, 841.0, 71.0, 18.0 ],
+					"patching_rect" : [ 897.0, 849.0, 71.0, 18.0 ],
 					"saved_object_attributes" : 					{
 						"ftm_objref_conv" : 0,
 						"ftm_scope" : 0
@@ -1064,8 +1123,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 343.407227, 915.0, 145.672195, 16.0 ],
-					"presentation_rect" : [ 343.407227, 915.0, 145.672195, 16.0 ],
+					"patching_rect" : [ 917.407227, 923.0, 145.672195, 16.0 ],
+					"presentation_rect" : [ 917.407227, 923.0, 145.672195, 16.0 ],
 					"text" : [ "_((($1 sub $2) sub 0.5) mul -2.5)" ]
 				}
 
@@ -1085,8 +1144,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 355.410797, 884.0, 100.653084, 16.0 ],
-					"presentation_rect" : [ 355.410797, 884.0, 100.653084, 16.0 ],
+					"patching_rect" : [ 929.410767, 892.0, 100.653084, 16.0 ],
+					"presentation_rect" : [ 929.410767, 892.0, 100.653084, 16.0 ],
 					"text" : [ "_(($1 sub $2) add 0.5)" ]
 				}
 
@@ -1100,7 +1159,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 241.75, 841.0, 71.0, 18.0 ],
+					"patching_rect" : [ 815.75, 849.0, 71.0, 18.0 ],
 					"saved_object_attributes" : 					{
 						"ftm_objref_conv" : 0,
 						"ftm_scope" : 0
@@ -1125,8 +1184,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 303.5, 813.0, 57.265526, 16.0 ],
-					"presentation_rect" : [ 303.5, 813.0, 57.265526, 16.0 ],
+					"patching_rect" : [ 877.5, 821.0, 57.265526, 16.0 ],
+					"presentation_rect" : [ 877.5, 821.0, 57.265526, 16.0 ],
 					"text" : [ "_($binbarks)" ]
 				}
 
@@ -1146,8 +1205,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 450.984497, 743.0, 45.595531, 16.0 ],
-					"presentation_rect" : [ 450.984497, 743.0, 45.595531, 16.0 ],
+					"patching_rect" : [ 1024.984497, 751.0, 45.595531, 16.0 ],
+					"presentation_rect" : [ 1024.984497, 751.0, 45.595531, 16.0 ],
 					"text" : [ "_($1 * $2)" ]
 				}
 
@@ -1161,7 +1220,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 450.984497, 678.0, 115.0, 18.0 ],
+					"patching_rect" : [ 1024.984497, 686.0, 115.0, 18.0 ],
 					"saved_object_attributes" : 					{
 						"filename" : "sfa.count_min_one.js",
 						"parameter_enable" : 0
@@ -1186,8 +1245,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 450.984497, 642.0, 25.015503, 16.0 ],
-					"presentation_rect" : [ 450.984497, 642.0, 25.015503, 16.0 ],
+					"patching_rect" : [ 1024.984497, 650.0, 25.015503, 16.0 ],
+					"presentation_rect" : [ 1024.984497, 650.0, 25.015503, 16.0 ],
 					"text" : [ "_($2)" ]
 				}
 
@@ -1207,8 +1266,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 42.019791, 567.0, 87.297806, 16.0 ],
-					"presentation_rect" : [ 42.019791, 567.0, 87.297806, 16.0 ],
+					"patching_rect" : [ 616.019775, 575.0, 87.297806, 16.0 ],
+					"presentation_rect" : [ 616.019775, 575.0, 87.297806, 16.0 ],
 					"text" : [ "_($binbarks set $1)" ]
 				}
 
@@ -1229,8 +1288,8 @@
 					"numins" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 42.019791, 492.0, 116.201683, 16.0 ],
-					"presentation_rect" : [ 42.019791, 492.0, 116.201683, 16.0 ],
+					"patching_rect" : [ 616.019775, 500.0, 116.201683, 16.0 ],
+					"presentation_rect" : [ 616.019775, 500.0, 116.201683, 16.0 ],
 					"text" : [ "_($binbarks mul ($2 / $3))" ]
 				}
 
@@ -1244,7 +1303,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 575.112366, 333.0, 64.387634, 18.0 ],
+					"patching_rect" : [ 1149.112305, 341.0, 64.387634, 18.0 ],
 					"text" : "step_barks"
 				}
 
@@ -1264,8 +1323,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 41.840622, 452.0, 149.282135, 16.0 ],
-					"presentation_rect" : [ 41.840622, 452.0, 149.282135, 16.0 ],
+					"patching_rect" : [ 615.840637, 460.0, 149.282135, 16.0 ],
+					"presentation_rect" : [ 615.840637, 460.0, 149.282135, 16.0 ],
 					"text" : [ "_($binbarks ramp 0 (($2 / 2) + 1))" ]
 				}
 
@@ -1285,8 +1344,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 41.840622, 410.0, 144.280014, 16.0 ],
-					"presentation_rect" : [ 41.840622, 410.0, 144.280014, 16.0 ],
+					"patching_rect" : [ 615.840637, 418.0, 144.280014, 16.0 ],
+					"presentation_rect" : [ 615.840637, 418.0, 144.280014, 16.0 ],
 					"text" : [ "_($binbarks size 1 (1 + ($1 / 2)))" ]
 				}
 
@@ -1305,9 +1364,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 476.872131, 129.0, 79.224747, 17.0 ],
+					"patching_rect" : [ 1050.87207, 137.0, 79.224747, 17.0 ],
 					"persistence" : 0,
-					"presentation_rect" : [ 476.872131, 129.0, 79.224747, 17.0 ],
+					"presentation_rect" : [ 1050.87207, 137.0, 79.224747, 17.0 ],
 					"scope" : 0,
 					"text" : "fmat"
 				}
@@ -1328,8 +1387,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 501.400848, 333.0, 65.599144, 16.0 ],
-					"presentation_rect" : [ 501.400848, 333.0, 65.599144, 16.0 ],
+					"patching_rect" : [ 1075.400879, 341.0, 65.599144, 16.0 ],
+					"presentation_rect" : [ 1075.400879, 341.0, 65.599144, 16.0 ],
 					"text" : [ "_($2 / ($1 - 1))" ]
 				}
 
@@ -1343,7 +1402,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 437.612366, 235.0, 68.0, 18.0 ],
+					"patching_rect" : [ 1011.612366, 243.0, 68.0, 18.0 ],
 					"text" : "nyqbark"
 				}
 
@@ -1357,7 +1416,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 336.5, 201.0, 58.0, 18.0 ],
+					"patching_rect" : [ 910.5, 209.0, 58.0, 18.0 ],
 					"text" : "maxfreq"
 				}
 
@@ -1377,8 +1436,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 343.407227, 410.0, 157.620636, 16.0 ],
-					"presentation_rect" : [ 343.407227, 410.0, 157.620636, 16.0 ],
+					"patching_rect" : [ 917.407227, 418.0, 157.620636, 16.0 ],
+					"presentation_rect" : [ 917.407227, 418.0, 157.620636, 16.0 ],
 					"text" : [ "_($wts_temp size $2 (($1 / 2) + 1) )" ]
 				}
 
@@ -1397,9 +1456,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 476.872131, 106.0, 84.224747, 17.0 ],
+					"patching_rect" : [ 1050.87207, 114.0, 84.224747, 17.0 ],
 					"persistence" : 0,
-					"presentation_rect" : [ 476.872131, 106.0, 84.224747, 17.0 ],
+					"presentation_rect" : [ 1050.87207, 114.0, 84.224747, 17.0 ],
 					"scope" : 0,
 					"text" : "fmat"
 				}
@@ -1414,7 +1473,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 413.0, 297.0, 32.5, 18.0 ],
+					"patching_rect" : [ 987.0, 305.0, 32.5, 18.0 ],
 					"text" : "+ 1."
 				}
 
@@ -1428,7 +1487,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 451.112366, 297.0, 41.0, 18.0 ],
+					"patching_rect" : [ 1025.112305, 305.0, 41.0, 18.0 ],
 					"text" : "nfilts"
 				}
 
@@ -1442,7 +1501,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 354.0, 235.0, 62.0, 18.0 ],
+					"patching_rect" : [ 928.0, 243.0, 62.0, 18.0 ],
 					"text" : "sfa.hz2bark"
 				}
 
@@ -1456,7 +1515,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 413.0, 271.0, 42.0, 18.0 ],
+					"patching_rect" : [ 987.0, 279.0, 42.0, 18.0 ],
 					"text" : "sfa.ceil"
 				}
 
@@ -1470,36 +1529,36 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 299.0, 201.0, 32.5, 18.0 ],
+					"patching_rect" : [ 873.0, 209.0, 32.5, 18.0 ],
 					"text" : "/ 2."
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
+					"fontname" : "Verdana",
 					"fontsize" : 10.0,
 					"frgb" : 0.0,
 					"id" : "obj-4",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 264.75, 36.5, 66.75, 18.0 ],
-					"text" : "Sr"
+					"patching_rect" : [ 838.75, 44.5, 75.0, 19.0 ],
+					"text" : "sample rate"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
+					"fontname" : "Verdana",
 					"fontsize" : 10.0,
 					"frgb" : 0.0,
 					"id" : "obj-3",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 40.340622, 36.5, 28.0, 18.0 ],
-					"text" : "nfft"
+					"patching_rect" : [ 614.340637, 44.5, 44.0, 19.0 ],
+					"text" : "fft size"
 				}
 
 			}
@@ -1513,7 +1572,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 264.75, 61.0, 25.0, 25.0 ]
+					"patching_rect" : [ 838.75, 69.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -1527,7 +1586,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 41.840622, 61.0, 25.0, 25.0 ]
+					"patching_rect" : [ 615.840637, 69.0, 25.0, 25.0 ]
 				}
 
 			}

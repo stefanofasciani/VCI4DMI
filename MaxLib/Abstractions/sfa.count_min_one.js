@@ -3,7 +3,7 @@ This file is part of the Voice-Controlled Interface for Digital Musical Instrume
 
 The Voice-Controlled Interface for Digital Musical Instruments (VCI4DMI) 
 is a collection of MAX patches, MAX externals and MATLAB functions 
-implementing ad-hoc mappings to control an arbitrary number of real-valued
+implementing ad-hoc mappings to control an arbirtary number of real-valued
 instrument parameters by variation of the voice timbre.
 The VCI4DMI can be obtained at http://stefanofasciani.com/vci4dmi.html
 VCI4DMI Copyright (C) 2014 Stefano Fasciani, National University of Singapore
