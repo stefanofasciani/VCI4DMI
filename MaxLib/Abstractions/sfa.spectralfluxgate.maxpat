@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 123.0, 122.0, 825.0, 631.0 ],
+		"rect" : [ 688.0, 100.0, 825.0, 631.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -95,7 +95,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 26.0, 392.0, 297.0, 36.0 ],
-					"text" : "sfa.hz2spectralfluxgate"
+					"text" : "sfa.spectralfluxgate"
 				}
 
 			}

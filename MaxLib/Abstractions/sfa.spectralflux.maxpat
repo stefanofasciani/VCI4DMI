@@ -37,7 +37,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 25.0, 499.0, 310.0, 67.0 ],
+					"patching_rect" : [ 25.0, 499.0, 311.0, 67.0 ],
 					"text" : "FTM abstraction\ncompute the spectralflux (distance between the spectrum) between two consecutive frames in the time domain.\nThe input are frame stored on a single fmat vector (column or row) and the output is a scalar."
 				}
 
@@ -52,7 +52,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 25.0, 463.0, 252.0, 36.0 ],
-					"text" : "sfa.hz2spectralflux"
+					"text" : "sfa.spectralflux"
 				}
 
 			}

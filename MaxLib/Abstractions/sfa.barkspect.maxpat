@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 136.0, 341.0, 1160.0, 899.0 ],
+		"rect" : [ 215.0, 69.0, 1160.0, 899.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -38,7 +38,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 727.346375, 964.0, 201.5, 43.0 ],
-					"text" : "bark coeff with with loudness equalization and cube root compression"
+					"text" : "output bark vector fmat with with loudness equalization and cube root compression"
 				}
 
 			}
@@ -48,11 +48,12 @@
 					"fontsize" : 10.0,
 					"frgb" : 0.0,
 					"id" : "obj-7",
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 501.34906, 971.0, 73.0, 19.0 ],
-					"text" : "bark coeff"
+					"patching_rect" : [ 501.34906, 971.0, 73.0, 31.0 ],
+					"text" : "output bark vector fmat"
 				}
 
 			}
@@ -67,7 +68,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 23.346436, 566.0, 525.0, 164.0 ],
-					"text" : "FTM abstraction\ncomputes the bark coefficients given an inut spectrum.\n\nThe first inlet is the fmat vector containing the frame spectrum.\nThe second inlet input is a 2 element list containing window/frame size and number N of bark bands (the output vector will have N coefficients).\n\nThe first outlet output is an fmat vector containing the energy on of the N bark bands.\n\nThe second outlet output is an fmat vector containing the energy on of the N bark bands with loudness equalization and cube root compression\n\nWorks only for 48KHz sampling rate."
+					"text" : "FTM abstraction\ncomputes the energy of the banrk bands an inut spectrum.\n\nThe first inlet is the fmat vector containing the frame spectrum.\nThe second inlet input is a 2 element list containing window/frame size and number N of bark bands (the output vector will have N coefficients).\n\nThe first outlet output is an fmat vector containing the energy on of the N bark bands.\n\nThe second outlet output is an fmat vector containing the energy on of the N bark bands with loudness equalization and cube root compression\n\nWorks only for 48KHz sampling rate."
 				}
 
 			}
@@ -856,21 +857,21 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "sfa.fft2barkmxN.maxpat",
-				"bootpath" : "/Applications/Max 6.1/Cycling '74/sfasciani",
+				"bootpath" : "/Users/stefanofasciani/Desktop/SFA-MaxLib/Abstractions",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sfa.hz2bark.maxpat",
-				"bootpath" : "/Applications/Max 6.1/Cycling '74/sfasciani",
+				"bootpath" : "/Users/stefanofasciani/Desktop/SFA-MaxLib/Abstractions",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sfa.count_min_one.js",
-				"bootpath" : "/Applications/Max 6.1/Cycling '74/sfasciani",
+				"bootpath" : "/Users/stefanofasciani/Desktop/SFA-MaxLib/Abstractions",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
@@ -878,27 +879,27 @@
 , 			{
 				"name" : "mnm.q.maxpat",
 				"bootpath" : "/Applications/Max 6.1/Cycling '74/ftm-and-co/mnm-abstractions",
-				"patcherrelativepath" : "../ftm-and-co/mnm-abstractions",
+				"patcherrelativepath" : "../../../../../Applications/Max 6.1/Cycling '74/ftm-and-co/mnm-abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sfa.hz2bark_vect.maxpat",
-				"bootpath" : "/Applications/Max 6.1/Cycling '74/sfasciani",
+				"bootpath" : "/Users/stefanofasciani/Desktop/SFA-MaxLib/Abstractions",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sfa.hynek_eq_coeff.maxpat",
-				"bootpath" : "/Applications/Max 6.1/Cycling '74/sfasciani",
+				"bootpath" : "/Users/stefanofasciani/Desktop/SFA-MaxLib/Abstractions",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sfa.bark2hz_vect.maxpat",
-				"bootpath" : "/Applications/Max 6.1/Cycling '74/sfasciani",
+				"bootpath" : "/Users/stefanofasciani/Desktop/SFA-MaxLib/Abstractions",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
