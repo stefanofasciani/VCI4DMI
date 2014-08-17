@@ -5,6 +5,7 @@ instrument parameters by variation of the voice timbre.
 The VCI4DMI can be obtained at http://stefanofasciani.com/vci4dmi.html
 VCI4DMI Copyright (C) 2014 Stefano Fasciani, National University of Singapore
 Inquiries: stefanofasciani@stefanofasciani.com
+Website: www.stefanofasciani.com
 
 The VCI4DMI is free software: you can redistribute it and/or modify
 it under the terms of the GNU Lesser General Public License as published by
