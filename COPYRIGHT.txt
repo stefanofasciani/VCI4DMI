@@ -17,10 +17,10 @@ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 GNU Less General Public License for more details.
 
 You should have received a copy of the GNU Lesser General Public License
-along with Foobar.  If not, see <http://www.gnu.org/licenses/>.
+along with VCI4DMI.  If not, see <http://www.gnu.org/licenses/>.
 
 If you use the VCI4DMI or any part of it in any program or publication,
-please acknowledge its authors by adding a reference any of these pubblications:
+please acknowledge its authors by adding a reference any of these publications:
 
 Fasciani, S. and Wyse, L. 2012. "Adapting general purpose interfaces to synthesis
 engines using unsupervised dimensionality reduction techniques and inverse mapping
