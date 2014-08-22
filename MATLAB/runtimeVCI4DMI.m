@@ -936,7 +936,9 @@ fprintf('Matlab OSC server terminated\n');
 %OSC client communication termination
 
 for i=1:numel(bankD)
-    fclose(LIVEoscclient{i});
+    if ~isempty(bankD{i})
+        fclose(LIVEoscclient{i});
+    end
 end
 fprintf('Live and Max OSC cliens terminated\n'); 
 fclose(MAXoscclient);
