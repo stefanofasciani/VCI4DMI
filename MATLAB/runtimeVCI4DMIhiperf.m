@@ -542,8 +542,10 @@ else
     Vdimension=0;
     
     for i=1:numel(bankD)
-        LIVEoscclient{i}=udp(live_ip_address,bankD{i}.oscport);
-        fopen(LIVEoscclient{i});
+        if ~isempty(bankD{i})
+            LIVEoscclient{i}=udp(live_ip_address,bankD{i}.oscport);
+            fopen(LIVEoscclient{i});
+        end
     end
     MAXoscclientD=udp(max_ip_address,max_osc_port);
     fopen(MAXoscclientD);
