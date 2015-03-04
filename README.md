@@ -56,8 +56,8 @@ install or copy the externals and abstractions in a folder included in the MAX p
 - analyzer~: http://web.media.mit.edu/~tristan/maxmsp.html
 install or copy the external in a folder included in the MAX path
 
-- netsend~: http://www.nullmedium.de/dev/netsend~/
-copy the externals in a folder included in the MAX path
+- OSC-route: http://cnmat.berkeley.edu/patch/4029
+copy the external in a folder included in the MAX path.
 
 
 for MATLAB:
@@ -84,6 +84,8 @@ for MAX:
 - copy the abstractions in MaxLib/Abstractions into a folder included in the MAX path
 
 - copy the FTM externals in MaxLib/FTMexernals into your MAX FTM externals folder (which is likely to be /Applications/Max 6.1/Cycling '74/ftm-and-co/externals if you used the FTM installer). For running on 64-bit versions of Max or on Windows the externals but be re-built and the related source code are included in MaxLib/FTMexternals-sources (the provided one are built for 32-bit Max with FTMEXT-SDK-2-6-MacOSX and MaxSDK-6.1.1).
+
+- copy the FTM externals in MaxLib/ThirdPartyExternals into your MAX FTM externals folder (netsend~ and netreceive~ binaries version 1.0b by Olaf Matthes not available on internet anymore).
 
 
 for MATLAB:
