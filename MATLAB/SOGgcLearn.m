@@ -129,7 +129,7 @@ feat = medoutlierfilt(feat,2,0);
 fprintf('to %d\n',size(feat,1));
 
 
-no_dims_CD = (intrinsic_dim(feat, 'CorrDim')+intrinsic_dim(feat, 'MLE'))/2;
+no_dims_CD = (intrinsic_dim_sfa(feat, 'CorrDim')+intrinsic_dim_sfa(feat, 'MLE'))/2;
 
 fprintf('Embedded dimensionality detected = %f; input dimensionality = %d\n',no_dims_CD,size(feat,2));
 %dim=str2num(getkey(1,'non-ascii'));
@@ -245,18 +245,18 @@ fluxminimum=min(min(fluxdistance));
 feat_proj=1;
 iso_div=10;
 while size(feat,1)~=size(feat_proj,1)
-    [feat_proj,dimredISO]=compute_mapping(feat,'Isomap',dim,ceil(size(feat,1)/iso_div));%PCA, LLE, Laplacian, LaplacianEigenmaps, Isomap
+    [feat_proj,dimredISO]=compute_mapping_sfa(feat,'Isomap',dim,ceil(size(feat,1)/iso_div));%PCA, LLE, Laplacian, LaplacianEigenmaps, Isomap
     iso_div=iso_div-1;
     if iso_div==0
         disp('problem in ISOMAP DIM RED');
-        feat_proj=out_of_sample(feat,dimredISO);
+        feat_proj=out_of_sample_sfa(feat,dimredISO);
         break;
     end
 end
 
-feat_proj_full=out_of_sample(feat_full,dimredISO);
+feat_proj_full=out_of_sample_sfa(feat_full,dimredISO);
 if redcdtn
-    feat_proj_discarded=out_of_sample(feat_discarded,dimredISO);
+    feat_proj_discarded=out_of_sample_sfa(feat_discarded,dimredISO);
 end
 dimredISO.meanD1=mean(dimredISO.DD .^ 2, 1);
 dimredISO.meanD2=mean(mean(dimredISO.DD .^ 2));

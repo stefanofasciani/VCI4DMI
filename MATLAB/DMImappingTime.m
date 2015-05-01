@@ -197,7 +197,7 @@ for i=1:num_combs
 end
 
 %EMBEDDED DIMENSIONALITY
-embedded_dim_f=(intrinsic_dim(D_post,'CorrDim')+intrinsic_dim(D_post,'MLE'))/2;
+embedded_dim_f=(intrinsic_dim_sfa(D_post,'CorrDim')+intrinsic_dim_sfa(D_post,'MLE'))/2;
 embedded_dim=round(embedded_dim_f*10)/10;
 embedded_dim=ceil(embedded_dim);
 
@@ -220,11 +220,11 @@ fprintf('Original sonic space uniformity = %f\n',unifmeas);
 D_star_fulldim=1;
 iso_div=10;
 while size(D_post,1)~=size(D_star_fulldim,1)
-    [D_star_fulldim,NLDRmapISO]=compute_mapping(D_post,'Isomap',size(D_post,2),ceil(size(D_post,1)/iso_div));%PCA, LLE, Laplacian, LaplacianEigenmaps, Isomap
+    [D_star_fulldim,NLDRmapISO]=compute_mapping_sfa(D_post,'Isomap',size(D_post,2),ceil(size(D_post,1)/iso_div));%PCA, LLE, Laplacian, LaplacianEigenmaps, Isomap
     iso_div=iso_div-1;
     if iso_div==0
         disp('problem in ISOMAP DIM RED');
-        [D_star_fulldim,NLDRmapISO]=compute_mapping(D_post,'PCA',size(D_post,2));
+        [D_star_fulldim,NLDRmapISO]=compute_mapping_sfa(D_post,'PCA',size(D_post,2));
         break;
     end
 end
@@ -233,7 +233,7 @@ arrangedim=var(D_star_fulldim);
 
 D_star=D_star_fulldim(:,ISOidx(1:embedded_dim));
 
-[D_star,NLDRmapPC]=compute_mapping(D_star,'PCA',embedded_dim);%PCA, LLE, Laplacian, LaplacianEigenmaps, Isomap	
+[D_star,NLDRmapPC]=compute_mapping_sfa(D_star,'PCA',embedded_dim);%PCA, LLE, Laplacian, LaplacianEigenmaps, Isomap	
 
 unifmeas=uniformitymeasurement(D_star);
 fprintf('Reduced sonic space uniformity = %f\n',unifmeas);

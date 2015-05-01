@@ -269,11 +269,11 @@ for set_idx=1:size(sr_win_step_overlap,1) %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% s
                         temp_mfcc_g=temp_mfcc_g./gesture_st.mfcc_div(globalindex);
                         temp_plp_g=temp_plp_g./gesture_st.plp_div(globalindex);
                         
-                        gesture_st.lpc_perf(globalindex,1)=(intrinsic_dim(temp_lpc_g','CorrDim')+intrinsic_dim(temp_lpc_g','MLE'))/2;
-                        gesture_st.mfcc_perf(globalindex,1)=(intrinsic_dim(temp_mfcc_g','CorrDim')+intrinsic_dim(temp_mfcc_g','MLE'))/2;
-                        gesture_st.plp_perf(globalindex,1)=(intrinsic_dim(temp_plp_g','CorrDim')+intrinsic_dim(temp_plp_g','MLE'))/2;
+                        gesture_st.lpc_perf(globalindex,1)=(intrinsic_dim_sfa(temp_lpc_g','CorrDim')+intrinsic_dim_sfa(temp_lpc_g','MLE'))/2;
+                        gesture_st.mfcc_perf(globalindex,1)=(intrinsic_dim_sfa(temp_mfcc_g','CorrDim')+intrinsic_dim_sfa(temp_mfcc_g','MLE'))/2;
+                        gesture_st.plp_perf(globalindex,1)=(intrinsic_dim_sfa(temp_plp_g','CorrDim')+intrinsic_dim_sfa(temp_plp_g','MLE'))/2;
                         temp=[temp_lpc_g;temp_mfcc_g;temp_plp_g];
-                        gesture_st.global_perf(globalindex,1)=(intrinsic_dim(temp','CorrDim')+intrinsic_dim(temp','MLE'))/2;
+                        gesture_st.global_perf(globalindex,1)=(intrinsic_dim_sfa(temp','CorrDim')+intrinsic_dim_sfa(temp','MLE'))/2;
 
                         gesture_st.lpc_perf(globalindex,2)=(gesture_st.lpc_perf(globalindex,1))+(abs(log(posture_st.lpc_perf(globalindex,2)))/tresh_base);
                         gesture_st.mfcc_perf(globalindex,2)=(gesture_st.mfcc_perf(globalindex,1))+(abs(log(posture_st.mfcc_perf(globalindex,2)))/tresh_base);
@@ -349,7 +349,7 @@ for set_idx=1:size(sr_win_step_overlap,1) %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% s
                 temp_mfcc_g=gesture_st.mfcc{bestmfcc}(posture_st.mfcc_mask{bestmfcc},:);
                 temp_plp_g=gesture_st.plp{bestplp}(posture_st.plp_mask{bestplp},:);
                 temp=[temp_lpc_g;temp_mfcc_g;temp_plp_g];
-                gest_global_perf(1)=(intrinsic_dim(temp','CorrDim')+intrinsic_dim(temp','MLE'))/2;
+                gest_global_perf(1)=(intrinsic_dim_sfa(temp','CorrDim')+intrinsic_dim_sfa(temp','MLE'))/2;
                 gest_global_perf(2)=(gest_global_perf(1))+(abs(log(post_global_perf(2)))/tresh_base);
                 
                 if gest_global_perf(2)>bestval
