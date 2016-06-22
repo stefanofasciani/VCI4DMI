@@ -7,7 +7,7 @@ function map = SOGgcLearn(path,varargin)
 % implementing ad-hoc mappings to control an arbitrary number of real-valued
 % instrument parameters by variation of the voice timbre.
 % The VCI4DMI can be obtained at http://stefanofasciani.com/vci4dmi.html
-% VCI4DMI Copyright (C) 2014 Stefano Fasciani, National University of Singapore
+% VCI4DMI Copyright (C) 2014-2016 Stefano Fasciani, National University of Singapore
 % Inquiries: stefanofasciani@stefanofasciani.com
 % 
 % The VCI4DMI is free software: you can redistribute it and/or modify
