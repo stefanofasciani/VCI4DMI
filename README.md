@@ -11,7 +11,7 @@ is a collection of MAX patches, MAX externals and MATLAB functions
 implementing ad-hoc mappings to control an arbitrary number of real-valued
 instrument parameters by variation of the voice timbre.
 The VCI4DMI can be obtained at http://stefanofasciani.com/vci4dmi.html
-VCI4DMI Copyright (C) 2014 Stefano Fasciani, National University of Singapore,
+VCI4DMI Copyright (C) 2014-2016 Stefano Fasciani, National University of Singapore,
 stefanofasciani@stefanofasciani.com
 
 ==============================================================================
