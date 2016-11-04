@@ -2,42 +2,51 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 6,
-			"minor" : 1,
-			"revision" : 8,
-			"architecture" : "x86"
+			"major" : 7,
+			"minor" : 2,
+			"revision" : 4,
+			"architecture" : "x86",
+			"modernui" : 1
 		}
 ,
-		"rect" : [ 580.0, 417.0, 896.0, 479.0 ],
+		"rect" : [ 502.0, 260.0, 896.0, 479.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Arial",
-		"gridonopen" : 0,
+		"gridonopen" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
-		"gridsnaponopen" : 0,
+		"gridsnaponopen" : 1,
+		"objectsnaponopen" : 1,
 		"statusbarvisible" : 2,
 		"toolbarvisible" : 1,
+		"lefttoolbarpinned" : 0,
+		"toptoolbarpinned" : 0,
+		"righttoolbarpinned" : 0,
+		"bottomtoolbarpinned" : 0,
+		"toolbars_unpinned_last_save" : 0,
+		"tallnewobj" : 0,
 		"boxanimatetime" : 200,
-		"imprint" : 0,
 		"enablehscroll" : 1,
 		"enablevscroll" : 1,
 		"devicewidth" : 0.0,
 		"description" : "",
 		"digest" : "",
 		"tags" : "",
+		"style" : "",
+		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
-					"frgb" : 0.0,
 					"id" : "obj-27",
 					"linecount" : 10,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 43.019791, 276.0, 231.0, 128.0 ],
+					"style" : "",
 					"text" : "FTM abstraction\nconverts the scalar input from Hertz scale to Mel scale\n\nThis object is part of the Max porting of the function rastaplp.m from Daniel P. W. Ellis \"PLP and RASTA (and MFCC, and inversion) in MATLAB\nhttp://www.ee.columbia.edu/~dpwe/resources/matlab/rastamat/"
 				}
 
@@ -46,12 +55,12 @@
 				"box" : 				{
 					"fontname" : "Verdana",
 					"fontsize" : 24.0,
-					"frgb" : 0.0,
 					"id" : "obj-28",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 43.019791, 240.0, 211.0, 36.0 ],
+					"style" : "",
 					"text" : "sfa.hz2mel"
 				}
 
@@ -60,13 +69,13 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
-					"frgb" : 0.0,
 					"id" : "obj-19",
 					"linecount" : 37,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 279.0, 16.0, 430.0, 420.0 ],
+					"style" : "",
 					"text" : "This file is part of the Voice-Controlled Interface for Digital Musical Instruments (VCI4DMI).\n\nThe Voice-Controlled Interface for Digital Musical Instruments (VCI4DMI) \nis a collection of MAX patches, MAX externals and MATLAB functions \nimplementing ad-hoc mappings to control an arbirtary number of real-valued\ninstrument parameters by variation of the voice timbre.\nThe VCI4DMI can be obtained at http://stefanofasciani.com/vci4dmi.html\nVCI4DMI Copyright (C) 2014 Stefano Fasciani, National University of Singapore\nInquiries: stefanofasciani@stefanofasciani.com\n\nThe VCI4DMI is free software: you can redistribute it and/or modify\nit under the terms of the GNU Lesser General Public License as published by\nthe Free Software Foundation, either version 3 of the License, or\n(at your option) any later version.\n\nThe VCI4DMI is distributed in the hope that it will be useful,\nbut WITHOUT ANY WARRANTY; without even the implied warranty of\nMERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\nGNU Less General Public License for more details.\n\nYou should have received a copy of the GNU Lesser General Public License\nalong with Foobar.  If not, see <http://www.gnu.org/licenses/>.\n\nIf you use the VCI4DMI or any part of it in any program or publication,\nplease acknowledge its authors by adding a reference any of these pubblications:\n\nFasciani, S. and Wyse, L. 2012. \"Adapting general purpose interfaces to synthesis\nengines using unsupervised dimensionality reduction techniques and inverse mapping\nfrom features to parameters\". In Proceedings of the 2012 International Computer\nMusic Conference. Ljubljana, Slovenia.\n\nFasciani, S. and Wyse, L. 2013. \"A Self-Organizing Gesture Map for a\nVoice-Controlled Instrument Interface. In Proceedings of the 13th conference\non New Interfaces for Musical Expression\". Daejeon, Korea.\n\nFasciani, S. 2014. \"Voice-Controlled Interface for Digital Musical Instruments\".\nPhD Thesis, National University of Singapore."
 				}
 
@@ -77,6 +86,7 @@
 					"#loadbang" : 0,
 					"#triggerall" : 0,
 					"#untuple" : 0,
+					"fontface" : 0,
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
 					"ftm_objref_conv" : 0,
@@ -86,9 +96,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 34.0, 78.0, 113.198235, 16.0 ],
-					"presentation_rect" : [ 34.0, 78.0, 113.198235, 16.0 ],
-					"text" : [ "_((log ($1 / 700.)) * 1127)" ]
+					"patching_rect" : [ 34.0, 78.0, 151.459961, 16.0 ],
+					"presentation_rect" : [ 34.0, 78.0, 151.459961, 16.0 ],
+					"text" : [ "_((log10 (($1 / 700.) + 1.)) * 2595)" ]
 				}
 
 			}
@@ -99,7 +109,8 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 34.0, 116.0, 25.0, 25.0 ]
+					"patching_rect" : [ 34.0, 116.0, 25.0, 25.0 ],
+					"style" : ""
 				}
 
 			}
@@ -111,7 +122,8 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 34.0, 31.0, 25.0, 25.0 ]
+					"patching_rect" : [ 34.0, 31.0, 25.0, 25.0 ],
+					"style" : ""
 				}
 
 			}
@@ -139,7 +151,8 @@
 				"name" : "ftm.mess.mxo",
 				"type" : "iLaX"
 			}
- ]
+ ],
+		"autosave" : 0
 	}
 
 }
